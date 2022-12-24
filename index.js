@@ -42,4 +42,10 @@ let track_list = [
 	image: "Image URL",
 	path: "Shipping_Lanes.mp3",
 },
+{
+	name: "Water Love",
+	artist: "BruceJames",
+	image: "Image URL",
+	path: "Waterlove.mp3",
+},
 ];

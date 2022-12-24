@@ -30,7 +30,8 @@ let track_list = [
     name: "Night Owl",
     artist: "Broke For Free",
     image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "Desktop/jsmusic_playlist/music/Best Throwback Reggae Riddims Mix  Shinski Beres Hammond Richie Spice Sanchez 2000s Old School.mp3"
+    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3"
+    
   },
   {
     name: "Enthusiast",
@@ -42,14 +43,21 @@ let track_list = [
     name: "Shipping Lanes",
     artist: "Chad Crouch",
     image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3",
+    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3"
   },
   {
     name: "Inner love",
     artist: "vincent Augustus ",
     image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
     path: "https://files.freemusicarchive.org/music/Maybe_Watson/Maybe_in_Love/Alaclair_Ensemble_-_Maybe_in_Love_-_01_MTL_GNITAL/.mp3"
-  },  
+  }, 
+  {
+    name: "Water love",
+    artist: "BruceJames ",
+    image: "https://tribeofnoisestorage.blob.core.windows.net/images/20729/photo_1476094610.jpg",
+    path:  "https://files.freemusicarchive.org/music/Maybe_Watson/Maybe_in_Love/Alaclair_Ensemble_-_Maybe_in_Love_-_01_MTL_GNITAL/.mp3"
+    
+  }, 
 ];
 //step 2
 function loadTrack(track_index) {
@@ -80,7 +88,7 @@ function loadTrack(track_index) {
   // Apply a random background color
   random_bg_color();
 }
- 
+/*  <p> hey there how are you</p> */
 function random_bg_color() {
   // Get a random number between 64 to 256
   // (for getting lighter colors)
